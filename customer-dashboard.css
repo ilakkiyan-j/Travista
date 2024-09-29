@@ -1,0 +1,164 @@
+  body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Navbar Styling */
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+    background: transparent;
+    padding: 20px 50px;
+    font-size: 1rem;
+}
+
+.navbar .navbar-brand {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar .nav-link {
+    color: white;
+    margin-right: 15px;
+}
+
+.navbar .nav-link:hover {
+    color: #ff497c;
+}
+
+.navbar .btn {
+    background-color: #ff497c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+}
+
+.navbar .btn:hover {
+    background-color: #ff497c;
+    opacity: 0.8;
+}
+
+/* Header Section */
+.header {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Full height */
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+#bg-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.header-content {
+    position: relative;
+    z-index: 1;
+    max-width: 700px;
+}
+
+.header-content h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.header-content p {
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+}
+
+/* Search Bar Styling */
+.search-bar .input-group {
+    width: 80%;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.search-bar input {
+    border: none;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.search-bar input[type="text"],
+.search-bar input[type="date"] {
+    margin-right: 10px;
+    flex: 1;
+}
+
+.search-bar .btn-search {
+    background-color: #ff497c;
+    color: white;
+      padding: 15px 30px;
+    border: none;
+    font-size: 1rem;
+}
+
+.search-bar .btn-search:hover {
+    background-color: #ff497c;
+    opacity: 0.9;
+}
+
+
+        /* Popular Destinations Section */
+        .container h2 {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+       /* Popular Destinations Section */
+.container h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.card {
+    border: none;
+    margin-bottom: 30px;
+}
+
+.card img {
+    width: 100%;
+    height: 250px; /* Fixed height */
+    object-fit: cover; /* Ensure the image scales and maintains aspect ratio */
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 1.25rem;
+    color: #ff497c;
+}
+
+.btn-primary {
+    background-color: #ff497c;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #ff497c;
+    opacity: 0.8;
+}

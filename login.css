@@ -1,0 +1,23 @@
+body {
+    background: linear-gradient(to right, #6d67e4, #3498db);
+    font-family: 'Poppins', sans-serif;
+}
+
+.login-box {
+    background-color: white;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+    animation: slide-in 1s ease-out;
+}
+
+@keyframes slide-in {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
